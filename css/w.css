@@ -1,0 +1,87 @@
+
+
+.bg-dark {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand,
+.nav-link{
+  color: #000000 !important;
+}
+
+.post_tex_1{
+    font-size: 26px;
+    color: #212121;
+}
+
+.text_pdos{
+    color: #212121;
+    font-size: 17px;
+}
+
+.time_txt{
+    color: #212121;
+    position: relative;
+    top: -20px;
+}
+
+.tetx_unix_1{
+    font-size: 17px;
+    position: relative;
+    left: 10px;
+    color: #242424;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.col-xl-4{
+    background-color: #ececec;
+    padding: 20px;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #d2d2d2;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5482ff;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.footer-col ul li a:hover{
+    color: #000000;
+    padding-left: 8px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+}
+
+.footer-col h4{
+    color: #000000;
+}
+
+.footer-col ul li a{
+    color: #212121;
+}
+
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
